@@ -1,0 +1,148 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Alaina Ylitalo Portfolio</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+
+<body>
+
+<div class="project-page-tile-3">
+  <div class="page-content">
+
+    <!-- project header-->
+    <div class="main-header">
+      <a href="index.html">
+        <img class="alaina-logo" src="images/alaina-logo-white.svg" alt="Alaina Starbust Logo">
+      </a>
+
+      <div class="main-header-nav">
+        <a class="main-header-nav-item dark-background-nav" href="index.html">portfolio</a>
+        <a class="main-header-nav-item dark-background-nav" href="about.html">about</a>
+        <a class="main-header-nav-item dark-background-nav" href="resume.html">resume</a>
+      </div>
+    </div>
+
+    <!-- Project Blurb-->
+    <div class="home-alaina-blurb project-header-blurb">
+      <p class="project-name">
+        New Reservation Workflow
+      </p>
+      <p class="project-description">Redesigning a core feature of Campspot's platform application.</p>
+      <p class="project-type">UX / UI / User Research / Testing</p>
+
+    </div>
+
+
+  </div>
+</div>
+
+<div class="project-case-study">
+
+  <div class="project-information-blurb">
+    <h3 class="small-project-header">The Problem ☟</<h3>
+
+    <h2 class="large-project-header">A widely used feature of the Campspot platform application needed some love.</h2>
+
+    <p class="project-paragraph">The "New Reservation" admin workflow is the core/backbone of the platform application - most campgrounds still receive about 20% of their reservations over the phone, and 5% in person. Although most sales at this point come from online reservations, a significant chunk still come from callers who feel a little more securing creating a reservation with the campground itself.
+    </p>
+
+    <p class="project-paragraph">Campspot is growing quickly and we are quickly heading towards 1000 parks. Between a growing customer base and a framework that is being sunset in the next year, an opportunity presented itself for the Platform team to redesign the New Reservation Workflow both front and backend.
+    </p>
+  </div>
+
+  <div class="project-blurb-divider"></div>
+
+  <div class="project-information-blurb">
+    <h3 class="small-project-header">UX Problems ☟</<h3>
+
+    <h2 class="large-project-header">We interviewed a small set of parks and had them walk us through their current experience with the workflow.</h2>
+
+    <p class="project-paragraph">
+      Some of the bigger functionality pain points included:
+      <ul class="project-paragraph-list">
+        <li class="project-paragraph project-paragraph-list-element">Speed is an issue.  Getting search results from the backend took a significant amount of time, sometimes in the realm of 3-5 minutes. Not practical, or a good look for the campground trying to sell reservations, or Campspot trying to sell their product. A lot of our parks have monthly/yearly stays, and searching for these longer time frames often caused the app to stall and time out.</li>
+        <li class="project-paragraph project-paragraph-list-element">A One Way Street/Lack of Flexibility - the way that the feature was initially developed had limitations in functionality. One of the biggest problems customers were loudly vocal about was the inability to go back to their search screens once the CSR (customer service representative) moves to the checkout screens. So if a guest changed their mind about what they wanted or who they were bringing, the search would need to be deleted and they would need to start again from scratch.</li>
+        <li class="project-paragraph project-paragraph-list-element">Add-ons are very disconnected from the sites they are being added to - they get added in a separate part of the workflow</li>
+        <li class="project-paragraph project-paragraph-list-element">Users could also not edit their items in cart - so simple asks like extending dates of stay or guests on the site would again mean removing the item from the cart entirely and adding from scratch. The only straightforward edit was to remove a site. This also meant that users could not navigate away from the cart without erasing all of their cart data.</li>
+        <li class="project-paragraph project-paragraph-list-element">The current filter remained hidden and out of view when not searching, meaning the user immediately loses context of why the results they see are returned.</li>
+        <li class="project-paragraph project-paragraph-list-element">The different views (grid, list, map) all show different tidbits of info about the site they are booking.</li>
+        <li class="project-paragraph project-paragraph-list-element">Parks can have many hundreds of sites. There is no way to easily filter through these by desired traits such as amenities.</li>
+      </ul>
+    </p>
+
+      <p class="project-paragraph-small-header">Conclusion</p>
+
+      <p class="project-paragraph">
+        Despite being the most important feature/core of the platform application, this feature has not changed at all since the app's conception in 2016, meaning it was swimming in both tech and design debt. In a period of the company's growth where we are heading towards 1000+ parks on an application where users expect speed, efficiency and a decent user experience, we decided to dedicate 1-2 quarters to tighten up this core functionality.
+      </p>
+
+  </div>
+
+    <img class="project-single-image" src="images/placeholder.png" alt="image">
+
+  <div class="project-information-blurb">
+    <h3 class="small-project-header">Who we designing for ☟</<h3>
+
+    <h2 class="large-project-header">Customer Service Representatives (CSRs)</h2>
+
+    <p class="project-paragraph">
+      <ul class="project-paragraph-list">
+        <li class="project-paragraph project-paragraph-list-element">Campgrounds can be small mom and pop shops that have 25 tent and RV sites, where the CSR may be the manager who  also covers almost all the campground responsibilities</li>
+        <li class="project-paragraph project-paragraph-list-element">They can be established resorts that have 300 sites including lodging, glamping sites, RV sites, where there may be a single dedicated CSR manning the Front Desk part of the application.</li>
+        <li class="project-paragraph project-paragraph-list-element">They may be anywhere in age from 16 to 60</li>
+      </ul>
+    </p>
+  </div>
+
+<div class="project-2-small-images">
+  <img class="project-double-image" src="images/placeholder-small.png" alt="image">
+  <img class="project-double-image" src="images/placeholder-small.png" alt="image">
+</div>
+
+<div class="project-information-blurb">
+  <h3 class="small-project-header">How we will solve this ☟</<h3>
+
+  <h2 class="large-project-header">Scoping an MVP for initial development and testing</h2>
+
+  <p class="project-paragraph">
+    The designers spent some time working out what we wanted the NRW to be. <a class="project-paragraph-link" target="_blank" href="https://invis.io/2HW6OPQ4CG5">You can see some medium fidelity versions of those screens here.</a>
+  </p>
+
+  <p class="project-paragraph">
+In an ideal world we could have built out the feature redesign with all sorts of these bells and whistles. Because this was an extensive redesign for both the front and backend of an established feature,  we sat down with the dev lead and decided we needed to opt for (improved) parity and UX, and build on nice-to-haves at a later date as feedback came in.
+  </p>
+
+</div>
+
+
+
+</div>
+
+
+<footer class="project-footer">
+  <div class="before-and-after">
+    <a class="previous-project" href="#">
+      <p>Previous Project ←</p>
+      <p class="footer-project-name">Second Chance Series </p>
+    </a>
+
+
+    <a class="next-project" href="#">
+      <p>➞ Next Project </p>
+      <p class="footer-project-name">Seventh Generation MOODS </p>
+    </a>
+  </div>
+</footer>
+
+</body>
+</html>

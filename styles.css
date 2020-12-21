@@ -327,6 +327,14 @@ button.pointer{
   border: 18px white solid;
 }
 
+.project-page-tile-3 {
+  background-color: red;
+  background-image: linear-gradient(180deg, #137763, #0D0052);
+  padding: 100px;
+  padding-bottom: 50px;
+  border: 18px white solid;
+}
+
 .project-description {
   font-size: 2rem;
   font-family: 'Lora';
@@ -385,6 +393,29 @@ font-weight: 200;
 
 .project-paragraph {
   line-height: 1.4rem;
+}
+
+.project-paragraph-list {
+  margin-bottom: 40px;
+}
+
+.project-paragraph-link {
+  color: #8F0000;
+  text-decoration: none;
+}
+
+  .project-paragraph-link:hover {
+    color: #8F0000;
+    text-decoration: underline;
+  }
+
+.project-paragraph-list-element {
+  margin-bottom: 20px;
+}
+
+.project-paragraph-small-header {
+  font-size: 1.2rem;
+  font-weight: 500;
 }
 
 .project-blurb-divider {
