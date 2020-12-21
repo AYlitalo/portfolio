@@ -512,7 +512,7 @@ font-weight: 200;
     font-size: 2.2rem;
     }
 
-    .project-page-tile-1 {
+    .project-page-tile-1, .project-page-tile-2, .project-page-tile-3 {
       padding: 40px;
     }
 
