@@ -257,6 +257,17 @@ body {
   max-width: 920px;
 }
 
+.resume-small-link {
+  text-decoration: none;
+  color: black;
+}
+
+.resume-small-link:hover {
+  text-decoration: none;
+  color: #8F0000;
+}
+
+
 .download-resume-button {
   padding: 12px;
   font-size: 1rem;
@@ -331,6 +342,14 @@ button.pointer{
 .project-page-tile-3 {
   background-color: red;
   background-image: linear-gradient(180deg, #137763, #0D0052);
+  padding: 100px;
+  padding-bottom: 50px;
+  border: 18px white solid;
+}
+
+.project-page-tile-4 {
+  background-color: red;
+  background-image: linear-gradient(180deg, #215471, #004152);
   padding: 100px;
   padding-bottom: 50px;
   border: 18px white solid;
@@ -417,6 +436,7 @@ font-weight: 200;
 .project-paragraph-small-header {
   font-size: 1.2rem;
   font-weight: 500;
+  margin-top: 40px;
 }
 
 .project-blurb-divider {
@@ -513,7 +533,7 @@ font-weight: 200;
     font-size: 2.2rem;
     }
 
-    .project-page-tile-1, .project-page-tile-2, .project-page-tile-3 {
+    .project-page-tile-1, .project-page-tile-2, .project-page-tile-3, .project-page-tile-4 {
       padding: 40px;
     }
 
@@ -561,4 +581,8 @@ font-weight: 200;
 
     .footer-project-name {
         display: none;}
+}
+
+.list-title-bump-down {
+  margin-top: 40px;
 }
