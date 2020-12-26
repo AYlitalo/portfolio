@@ -341,7 +341,7 @@ button.pointer{
 
 .project-page-tile-3 {
   background-color: red;
-  background-image: linear-gradient(180deg, #137763, #0D0052);
+  background-image: linear-gradient(180deg, #003252, #0D0052);
   padding: 100px;
   padding-bottom: 50px;
   border: 18px white solid;
@@ -465,13 +465,11 @@ font-weight: 200;
 }
 
 .project-footer {
-  background-color: #F5F5F5;
   padding-left: 100px;
   padding-right: 100px;
   padding-top: 50px;
   padding-bottom: 50px;
   border: 18px white solid;
-  margin-top: 50px;
 }
 
 .before-and-after {
@@ -533,7 +531,7 @@ font-weight: 200;
     font-size: 2.2rem;
     }
 
-    .project-page-tile-1, .project-page-tile-2, .project-page-tile-3, .project-page-tile-4 {
+    .project-page-tile-1, .project-page-tile-2, .project-page-tile-3, .project-page-tile-4, .project-page-tile-junk_drawer {
       padding: 40px;
     }
 
@@ -580,7 +578,8 @@ font-weight: 200;
       }
 
     .footer-project-name {
-        display: none;}
+        display: none;
+      }
 }
 
 .list-title-bump-down {
