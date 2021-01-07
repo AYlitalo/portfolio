@@ -155,6 +155,7 @@ body {
 }
 
 @media only screen and (max-width: 740px) {
+
   .home-alaina-blurb {
     font-size: 2.2rem;
     }
@@ -176,6 +177,7 @@ body {
 
     .home-page-background {
       padding: 40px;
+      border: none;
     }
 
     .home-bottom-links-item {
@@ -227,6 +229,7 @@ body {
 
     .about-page-background {
       padding: 40px;
+      border: none;
     }
 
     .about-me-secondary-blurb{
@@ -317,6 +320,7 @@ button.pointer{
 
     .resume-page-background {
       padding: 40px;
+      border: none;
     }
 
 }
@@ -533,6 +537,7 @@ font-weight: 200;
 
     .project-page-tile-1, .project-page-tile-2, .project-page-tile-3, .project-page-tile-4, .project-page-tile-junk_drawer {
       padding: 40px;
+      border: none;
     }
 
     .project-description {

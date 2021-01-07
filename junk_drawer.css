@@ -25,6 +25,10 @@
 
 
 @media only screen and (max-width: 740px) {
+  .project-page-tile-junk_drawer {
+      border: none;
+    }
+
   .portfolio-gallery-image {
     width: 45%;
     margin-bottom: 5%;
