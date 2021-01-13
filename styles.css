@@ -4,6 +4,21 @@ body {
   font-family: 'Karla';
 }
 
+.page-content {
+          animation: fadeInAnimation ease .8s;
+          animation-iteration-count: 1;
+          animation-fill-mode: forwards;
+      }
+
+      @keyframes fadeInAnimation {
+          0% {
+              opacity: 0;
+          }
+          100% {
+              opacity: 1;
+          }
+      }
+
 .alaina-logo {
   -webkit-transition: -webkit-transform 0.2s ease-in-out;
   transition: transform 0.2s ease-in-out;
