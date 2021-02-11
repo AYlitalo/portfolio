@@ -120,6 +120,30 @@ body {
   color: #8F0000;
 }
 
+  /*
+  a {
+  color: #8F0000;
+  }
+
+  a:hover {
+  color: #8F0000;
+  animation-name: example1;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  }
+
+  @keyframes example1 {
+  0%   {color: #8F0000;}
+  20%  {color: #FF8D05;}
+  40%  {color: #650886;}
+  60%  {color: #060D94;}
+  80%  {color: #650886;}
+  100%  {color: #8F0000;}
+  }
+
+
+  */
+
 .nav-active {
   border-top: black solid 2px;
   padding-top: 10px;
