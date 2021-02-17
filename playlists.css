@@ -1,0 +1,215 @@
+
+@font-face {
+  font-family: "Le Murmure";
+  src: url(fonts/LeMurmure-Regular.woff2);
+}
+
+a {
+  color: white;
+}
+
+@font-face {
+  font-family: "Pilowlava";
+  src: url(fonts/Pilowlava-Regular.woff2);
+}
+
+.playlists-page-background {
+  background-color: #131415;
+  padding: 100px;
+  border: 18px white solid;
+}
+
+.mod-white {
+    color: white;
+}
+
+.playlists-header {
+  text-align: center;
+  font-size: 10em;
+  color: #FFDEA3;
+  font-family: "Le Murmure";
+  margin-bottom: 0px;
+}
+
+.playlists-secondary-header {
+  color: white;
+  text-align: center;
+  margin: 0;
+  font-size: 1.4em;
+  font-weight: 300;
+}
+
+.list-of-playlist {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  width:80%;
+  justify-content: space-between;
+}
+
+.list-of-playlist-item{
+  color: white;
+  text-decoration: none;
+  font-weight: 300;
+  text-align: center;
+  padding: 10px;
+  font-size: 1em;
+}
+
+.playlist-mod-active {
+  color: #131415;
+  background-color: #FFDEA3;
+  font-weight: 400;
+}
+
+.playlist-content-box {
+  background-color: #FFDEA3;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.playlist-content {
+  padding: 45px;
+  text-align: center;
+  font-weight: 200;
+
+}
+
+.circle {
+  height: 16px;
+  width:16px;
+  border-radius: 10px;
+  background-color: #131415;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.playlist-name {
+  font-family: "Pilowlava";
+  font-size: 6em;
+  margin: 0;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1;
+}
+
+.spotify-button{
+    padding: 20px;
+    color: white;
+    background-color: #131415;
+    border-radius: 62px;
+    border: none;
+    font-family: 'Karla';
+    cursor: pointer;
+    transition: .2s;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.spotify-button:hover {
+  background-color: #FFFFFF;
+  color: #131415;
+  transform: translateY(-5px);
+}
+
+.im-feeling {
+  font-size: 1.2em;
+  font-weight: 400;
+}
+
+.playlist-song-list {
+margin-top: 40px;
+}
+
+.song-details {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: .5em;
+  border-top: 1px  #131415 solid;
+}
+
+.song-details-name {
+  margin: 0px;
+  padding-top: 12px;
+  padding-bottom: 32px;
+  font-weight: 400;
+  text-align: left;
+
+}
+
+.song-details-artist {
+  margin: 0px;
+  padding-top: 12px;
+  padding-bottom: 24px;
+  font-family: 'Lora';
+  font-weight: 300;
+  text-align: right;
+}
+
+
+.font-info {
+  color: white;
+  text-align: center;
+  font-weight: 200;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+}
+
+  .font-info-murmure {
+    font-family: "Le Murmure";
+    font-size: 1.5em;
+  }
+
+  .font-info-pilowlava {
+    font-family: "Pilowlava";
+    font-size: 1.5em;
+  }
+
+@media only screen and (max-width: 740px) {
+  .list-of-playlist {
+    display: block;
+  }
+
+.playlist-content {
+  padding: 20px;
+}
+
+  .playlist-name {
+    font-size: 5em;
+    width: 100%;
+  }
+
+  .playlists-page-background {
+    padding: 40px;
+    border: none;
+  }
+
+  .list-of-playlist-item {
+    margin: 0;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+  }
+
+  .playlists-header {
+    font-size: 8em;
+  }
+
+  .list-of-playlist {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+}

@@ -244,8 +244,9 @@ body {
 .about-me-secondary-blurb {
   font-family: 'Lora', sans-serif;
   margin-top: 64px;
-  margin-bottom: 107px;
-  font-size: 2.2rem;
+  margin-bottom: 40px;
+  line-height: 1.4;
+  font-size: 1.5em;
   max-width: 920px;
   font-weight: 300;
 }
@@ -260,6 +261,13 @@ body {
     color: #8F0000;
     text-decoration: none;
 }
+
+.about-me-tertiary-blurb {
+  margin-top: 40px;
+  margin-bottom: 80px;
+  font-size: 1.2em;
+}
+
 
 @media only screen and (max-width: 740px) {
   .about-me-main-blurb {
@@ -624,6 +632,8 @@ font-weight: 200;
     .footer-project-name {
         display: none;
       }
+
+
 }
 
 .list-title-bump-down {
