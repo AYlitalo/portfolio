@@ -236,7 +236,7 @@ body {
 .about-me-main-blurb {
   font-family: 'Karla';
   margin-top: 64px;
-  margin-bottom: 64px;
+  margin-bottom: -20px;
   font-size: 4rem;
   max-width: 920px;
 }
@@ -272,6 +272,7 @@ body {
 @media only screen and (max-width: 740px) {
   .about-me-main-blurb {
     font-size: 2.2rem;
+    margin-bottom: -20px;
     }
 
     .about-page-background {
@@ -280,8 +281,14 @@ body {
     }
 
     .about-me-secondary-blurb{
-      font-size: 1.5rem;
+      font-size: 1em;
       margin-bottom: 53px;
+    }
+
+    .about-me-tertiary-blurb {
+      margin-top: -20px;
+      margin-bottom: 60px;
+      font-size: 1em;
     }
 
 }
