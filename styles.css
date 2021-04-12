@@ -39,7 +39,7 @@ body {
   border-left: 20px white solid;
   border-right: 20px white solid;
   animation-name: background-animation;
-  animation-duration: 50s;
+  animation-duration: 30s;
   animation-iteration-count: infinite;
 }
 
