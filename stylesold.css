@@ -1,0 +1,143 @@
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  animation: fadeInAnimation ease .8s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+      @keyframes fadeInAnimation {
+          0% {
+              opacity: 0;
+          }
+          100% {
+              opacity: 1;
+          }
+      }
+
+      .alaina-logo {
+        -webkit-transition: -webkit-transform 0.2s ease-in-out;
+        transition: transform 0.2s ease-in-out;
+      }
+
+      .alaina-logo:hover {
+        -webkit-transform: rotate(60deg);
+        transform: rotate(60deg);
+      }
+
+.full-screen {
+  height: 100%;
+  background-color: #F46E73;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: 20px white solid;
+  border-right: 20px white solid;
+  animation-name: background-animation;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes background-animation {
+0%   {background-color: #F46E73;}
+33%  {background-color: #E4A945;}
+66%  {background-color: #56A7D5;}
+100% {background-color: #F46E73;}
+}
+
+
+.content {
+  height: auto;
+  color: white;
+  max-width: 60rem;
+}
+
+.about-me-main-blurb {
+  font-family: "Lora", sans-serif;
+  font-weight: 300;
+  font-size: 3.2rem;
+  margin: 3rem 0 3.2rem 0;
+  letter-spacing: 0.05rem;
+}
+
+.about-me-secondary-blurb p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.contact {
+  margin: 0;
+  margin-top: 3.2rem;
+}
+
+.white-strip-top {
+  width: 100%;
+  height: 20px;
+  background-color: white;
+  position: fixed;
+  top: 0;
+}
+
+.white-strip-bottom {
+  width: 100%;
+  height: 20px;
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+}
+
+.black-type {
+  color: #222;
+}
+
+.contact {
+  font-style: italic;
+  font-weight: 300;
+}
+
+.contact a {
+  color: #222;
+}
+
+@media screen and (max-width: 1100px) {
+  .full-screen {
+    margin: 0;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+
+@media screen and (max-width: 700px) {
+  .about-me-main-blurb {
+    font-family: "Lora", sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin: 2rem 0 2rem 0;
+  }
+
+  .full-screen {
+    display: block;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .about-me-secondary-blurb p {
+      font-size: 1rem;
+      font-weight: 300;
+      line-height: 1.2;
+  }
+
+        .alaina-logo {
+          height: 1.8rem;
+        }
+
+}
