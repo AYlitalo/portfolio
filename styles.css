@@ -56,7 +56,20 @@ h1, h2, h3, h4, h5, h6, p {
 .content {
   padding:3rem;
   max-width: 1500px;
+  animation: fadeInAnimation ease .8s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
+
+      @keyframes fadeInAnimation {
+          0% {
+              opacity: 0;
+          }
+          100% {
+              opacity: 1;
+          }
+      }
+
 
 .about-me-blurb {
   font-size: 4rem;
@@ -119,10 +132,29 @@ a span:hover {
 }
 
 
+.rainbow {
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+
 @keyframes example {
-  0%   {color: #FDFF8B;}
-  25%  {color: #88E2B7;}
-  50%  {color: #66F5ED;}
-  75%  {color: #FF7979;}
-  100% {color: #FDFF8B;}
+  0%   {color: #FF7979;}
+  20%  {color: #FDFF8B;}
+  40%  {color: #88E2B7;}
+  60%  {color: #66F5ED;}
+  80%  {color: #E6BBF0;}
+  100% {color: #FF7979;}
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .about-me-blurb p {
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
+  }
+
+
 }
