@@ -156,5 +156,8 @@ a span:hover {
     padding-bottom: 1.5rem;
   }
 
+  .content {
+    padding:1.5rem;
+  }
 
 }
