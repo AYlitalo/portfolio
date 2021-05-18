@@ -1,32 +1,11 @@
 
-@font-face {
-  font-family: "KoPubBatang";
-  src: url(Fonts/KoPubBatang-Regular.ttf);
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: "KoPubBatang";
-  src: url(Fonts/KoPubBatang-Light.ttf);
-  font-weight: lighter;
-}
-
-@font-face {
-  font-family: "KoPubBatang";
-  src: url(Fonts/KoPubBatang-Bold.ttf);
-  font-weight: bold;
-}
-
-
 html, body {
   height: 100%;
   margin: 0;
-  font-family: "KoPubBatang";
-  font-weight: lighter;
+  font-family: 'Lora', serif;
   background-color: #1D1F21;
   color: #fff;
-  letter-spacing: -.040rem;
-  line-height: 1;
+    line-height: 1;
 }
 
 a {
