@@ -85,7 +85,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 
-.linkedin a {
+.info-section a {
   color: white;
 
 }
@@ -128,15 +128,58 @@ a span:hover {
 }
 
 
+.contact, .experience {
+  border-top: white 1px solid;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+
+.experience-item-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.small-title {
+  font-size: 1.3rem;
+  padding-bottom: 1rem;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.info-section {
+  font-size: 1.5rem;
+  line-height: 1.1;
+  padding-top: 2rem;
+}
+
+@media only screen and (max-width: 1100px) {
+  .info-section  {
+    font-size: 1rem;
+  }
+}
+
+
+@media only screen and (max-width: 800px) {
+  .info-section  {
+    font-size: 1rem;
+  }
+
+  .experience-item-list {
+    display: block;
+  }
+
+  .experience-item-list div {
+    padding-top: 20px;
+  }
+
+  .content {
+    padding:1.5rem;
+  }
+}
 
 @media only screen and (max-width: 600px) {
   .about-me-blurb p {
     font-size: 2rem;
     padding-bottom: 1.5rem;
   }
-
-  .content {
-    padding:1.5rem;
-  }
-
 }
