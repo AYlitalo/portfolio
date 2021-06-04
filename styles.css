@@ -17,6 +17,8 @@ h1, h2, h3, h4, h5, h6, p {
   padding: 0;
 }
 
+/*home*/
+
 .full-screen {
 
 }
@@ -152,6 +154,7 @@ a span:hover {
   padding-top: 2rem;
 }
 
+
 @media only screen and (max-width: 1100px) {
   .info-section  {
     font-size: 1rem;
@@ -182,4 +185,47 @@ a span:hover {
     font-size: 2rem;
     padding-bottom: 1.5rem;
   }
+}
+
+
+/*resources*/
+.resources-title {
+  font-size: 6rem;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.resources-description {
+  font-size: 2.5rem;
+  padding-top: 1rem;
+  font-weight: 100;
+}
+
+.small-white-bar {
+  background-color: white;
+  width: 50px;
+  height: 5px;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.resource-item {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.resource-item-title {
+  padding-bottom: .5rem;
+}
+
+.list-of-resources a{
+  color: white;
+  text-decoration: underline;
+}
+
+.zigzag img {
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
 }
