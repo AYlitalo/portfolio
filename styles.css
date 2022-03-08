@@ -1,289 +1,71 @@
+html {
+  font-family: 'Karla', sans-serif;
+  font-weight: 200;
+}
 
-html, body {
+.home-page {
+  background: radial-gradient(135.06% 78.31% at 20.45% 82.52%, #FFE3DD 21.41%, #FED8D6 25.92%, #FFFFFF 73.69%);
   height: 100%;
-  margin: 0;
-  font-family: 'Lora', serif;
-  background-color: #1D1F21;
-  color: #fff;
-    line-height: 1.1;
+  color: #013A4C;
+}
+
+.home-page {
+  color: #013A4C;
 }
 
 a {
   text-decoration: none;
+  cursor: url("whitecircle.svg"), auto;
 }
 
-h1, h2, h3, h4, h5, h6, p {
-  margin: 0;
-  padding: 0;
+  .home-page a{
+    color: #013A4C;
+  }
+
+  .about-page a{
+    color: #FFF4F3;
+  }
+
+.about-page {
+  background-color: #04232D;
+  color: #FFF4F3;
+
 }
 
-/*home*/
-
-.full-screen {
-
-}
-
-.header {
+.home-page, .about-page {
+  overflow: auto;
   display: flex;
-  justify-content: space-between;
-  padding-bottom: 3rem;
-  font-size: 1.5rem;
-  font-family: 'Kotta One', serif;}
-
-.header a {
-  text-decoration: none;
-  color: white;
-}
-
-.about-me-blurb p {
-  padding-bottom: 3rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .content {
-  padding:3rem;
-  margin: auto;
-  max-width: 1500px;
-  animation: fadeInAnimation ease .8s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-}
-
-      @keyframes fadeInAnimation {
-          0% {
-              opacity: 0;
-          }
-          100% {
-              opacity: 1;
-          }
-      }
-
-
-.about-me-blurb {
-  font-size: 4rem;
-  padding-top: 2rem;
-}
-
-.pink-text {
-  color: #FF7979;
-}
-
-.green-text {
-  color: #88E2B7;
-}
-
-.yellow-text {
-  color: #FDFF8B;
-}
-
-.purple-text {
-  color: #E6BBF0;
-}
-
-.blue-text {
-  color: #66F5ED;
-}
-
-.linkedin {
-  font-family: 'Kotta One', serif;
-  color: white;
-}
-
-
-.info-section a {
-  color: white;
-
-}
-
-a:hover, a span:hover {
-  color: white;
-  animation-name: example;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-}
-
-a span:hover {
-  font-style: italic;
-}
-
-.fun-stuff a {
-  color: white;
-  text-decoration: none;
-}
-
-.fun-stuff a:hover {
-  font-style: italic;
-}
-
-
-.rainbow {
-  animation-name: example;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-}
-
-
-@keyframes example {
-  0%   {color: #FF7979;}
-  20%  {color: #FDFF8B;}
-  40%  {color: #88E2B7;}
-  60%  {color: #66F5ED;}
-  80%  {color: #E6BBF0;}
-  100% {color: #FF7979;}
-}
-
-
-.contact, .experience {
-  border-top: white 1px solid;
-  padding-top: 2rem;
-  padding-bottom: 3rem;
-}
-
-.experience-item-list {
+  text-align: center;
+  font-size: 3rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  max-width: 900px;
+  padding: 40px;
 }
 
-.small-title {
-  font-size: 1.3rem;
-  padding-bottom: 1rem;
-  font-weight: normal;
-  font-style: italic;
-}
-
-.info-section {
+.link a {
   font-size: 1.5rem;
-  line-height: 1.1;
-  padding-top: 2rem;
+  margin: 0;
 }
 
-.select-projects {
-  padding-bottom: 2rem;
-  padding-top: 3rem;
+h3, h4 {
+  font-weight: 200;
 }
 
-.projects {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.project {
-  width: 49%;
-  border-top: white 1px solid;
-  padding-top: 1.6rem;
-  padding-bottom: 3rem;
-}
-
-  .project-company {
-    font-style: italic;
-    color: #B3B4BA;
-    padding-bottom: .5rem;
-  }
-
-  .project-name {
-    padding-bottom: 1.2rem;
-  }
-
-  .project-description {
-    color: #B3B4BA;
-  }
-
-  .project-coming-soon {
-    color: #B3B4BA;
-    font-style: italic;
-    font-size: .8rem;
-    padding-top: .8rem;
-  }
-
-/*resources*/
-.resources-title {
-  font-size: 6rem;
+.resume h3 {
+  font-size: 2rem;
+  margin-bottom: 10px;
   font-style: italic;
-  font-weight: normal;
 }
 
-.resources-description {
-  font-size: 2.5rem;
-  padding-top: 1rem;
-  font-weight: 100;
-}
-
-.small-white-bar {
-  background-color: white;
-  width: 50px;
-  height: 5px;
-  margin-top: 3rem;
-  margin-bottom: 2rem;
-}
-
-.resource-item {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  font-size: 1.3rem;
-}
-
-.resource-item-title {
-  padding-bottom: .5rem;
-}
-
-.list-of-resources a{
-  color: white;
-  text-decoration: underline;
-}
-
-.zigzag img {
-  width: 100%;
-  padding-top: 1rem;
-  padding-bottom: 3rem;
-}
-
-
-
-
-
-
-
-@media only screen and (max-width: 1100px) {
-  .info-section  {
-    font-size: 1rem;
-  }
-}
-
-
-@media only screen and (max-width: 800px) {
-  .info-section  {
-    font-size: 1rem;
-  }
-
-  .experience-item-list {
-    display: block;
-  }
-
-  .experience-item-list div {
-    padding-top: 20px;
-  }
-
-  .content {
-    padding:1.5rem;
-  }
-
-  .projects {
-    display: block;
-  }
-
-  .project {
-    width: 100%;
-}
-
-@media only screen and (max-width: 600px) {
-  .about-me-blurb p {
-    font-size: 2rem;
-    padding-bottom: 1.5rem;
-    padding-top: 1.5rem;
-  }
-
-  .header {
-    font-size: 1.2rem;
-    padding-bottom: .1rem;
-  }
+.resume-list {
+  font-size: 1.4rem;
+  font-style: italic;
 }
