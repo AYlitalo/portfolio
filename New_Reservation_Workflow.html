@@ -1,0 +1,282 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>New Reservation Workflow</title>
+  <meta name="New Reservation Workflow" content="New Reservation Workflow">
+  <meta name="author" content="SitePoint">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="slide-in.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="shortcut icon" type="images/jpg" href="images/alaina-logo-white.svg"/>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-L51GMKTB9D"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-L51GMKTB9D');
+  </script>
+
+</head>
+
+
+<body>
+
+<div class="project-page-tile-3">
+  <div class="page-content">
+
+    <!-- project header-->
+    <div class="main-header">
+      <a href="index.html">
+        <img class="alaina-logo" src="images/alaina-logo-white.svg" alt="Alaina Starbust Logo">
+      </a>
+
+      <div class="main-header-nav">
+        <a class="main-header-nav-item dark-background-nav" href="index.html">portfolio</a>
+        <a class="main-header-nav-item dark-background-nav" href="about.html">about</a>
+        <a class="main-header-nav-item dark-background-nav" href="resume.html">resume</a>
+      </div>
+    </div>
+
+    <!-- Project Blurb-->
+    <div class="home-alaina-blurb project-header-blurb">
+      <p class="project-name">
+        New Reservation Workflow
+      </p>
+      <p class="project-description">Redesigning a core feature of Campspot's platform application.</p>
+      <p class="project-type">UX / UI / User Research / Testing</p>
+
+    </div>
+
+
+  </div>
+</div>
+
+<div class="project-case-study">
+
+  <div class="project-information-blurb module">
+    <h3 class="small-project-header">The Problem ☟</<h3>
+
+    <h2 class="large-project-header">A widely used feature of the Campspot platform application needed some love.</h2>
+
+    <p class="project-paragraph">The "New Reservation" admin workflow is the core/backbone
+      of the platform application - most campgrounds still receive about 20% of their reservations
+      over the phone, and 5% in person. Although most sales at this point come from online
+      reservations, a significant chunk still come from callers who feel a little more
+      securing creating a reservation with the campground itself.
+    </p>
+
+    <p class="project-paragraph">Campspot is growing quickly and we are quickly heading towards 1000 parks.
+      Between a growing customer base and a framework that is being sunset in the next year, an opportunity
+      presented itself for the Platform team to redesign the New Reservation Workflow, both front and backend.
+    </p>
+
+    <p class="project-paragraph">
+      <a class="project-paragraph-link" target="_blank" href="https://www.loom.com/share/a1e978050dfc46ada407969c0c4136bc">
+        Check out a video of the legacy workflow here.
+      </a>
+    </p>
+
+  </div>
+
+
+
+  <div class="project-blurb-divider module"></div>
+
+  <div class="project-information-blurb module">
+    <h3 class="small-project-header">UX Problems ☟</<h3>
+
+    <h2 class="large-project-header">We interviewed a small set of parks and had them walk us through their current experience with the workflow.</h2>
+
+    <p class="project-paragraph">
+      Some of the bigger functionality pain points included:
+      <ul class="project-paragraph-list">
+        <li class="project-paragraph project-paragraph-list-element">Speed is an issue.  Getting search results from the backend took a significant amount of time, sometimes in the realm of 3-5 minutes. Not practical, or a good look for the campground trying to sell reservations, or Campspot trying to sell their product. A lot of our parks have monthly/yearly stays, and searching for these longer time frames often caused the app to stall and time out.</li>
+        <li class="project-paragraph project-paragraph-list-element">A One Way Street/Lack of Flexibility - the way that the feature was initially developed had limitations in functionality. One of the biggest problems customers were loudly vocal about was the inability to go back to their search screens once the CSR (customer service representative) moves to the checkout screens. So if a guest changed their mind about what they wanted or who they were bringing, the search would need to be deleted and they would need to start again from scratch.</li>
+        <li class="project-paragraph project-paragraph-list-element">Add-ons are very disconnected from the sites they are being added to - they get added in a separate part of the workflow</li>
+        <li class="project-paragraph project-paragraph-list-element">Users could also not edit their items in cart - so simple asks like extending dates of stay or guests on the site would again mean removing the item from the cart entirely and adding from scratch. The only straightforward edit was to remove a site. This also meant that users could not navigate away from the cart without erasing all of their cart data.</li>
+        <li class="project-paragraph project-paragraph-list-element">The current filter remained hidden and out of view when not searching, meaning the user immediately loses context of why the results they see are returned.</li>
+        <li class="project-paragraph project-paragraph-list-element">The different views (grid, list, map) all show different tidbits of info about the site they are booking.</li>
+        <li class="project-paragraph project-paragraph-list-element">Parks can have many hundreds of sites. There is no way to easily filter through these by desired traits such as amenities.</li>
+      </ul>
+    </p>
+
+      <p class="project-paragraph-small-header">Conclusion</p>
+
+      <p class="project-paragraph">
+        Despite being the most important feature/core of the platform application, this feature has not changed at all since the app's conception in 2016, meaning it was swimming in both tech and design debt. In a period of the company's growth where we are heading towards 1000+ parks on an application where users expect speed, efficiency and a decent user experience, we decided to dedicate 1-2 quarters to tighten up this core functionality.
+      </p>
+
+  </div>
+
+    <img class="project-single-image  module" src="images/Legacy-Workflow.png" alt="Legacy Workflow Example">
+
+  <div class="project-information-blurb  module">
+    <h3 class="small-project-header">Who we designing for ☟</<h3>
+
+    <h2 class="large-project-header">Customer Service Representatives (CSRs)</h2>
+
+    <p class="project-paragraph">
+      <ul class="project-paragraph-list">
+        <li class="project-paragraph project-paragraph-list-element">Campgrounds can be small mom and pop shops that have 25 tent and RV sites, where the CSR may be the manager who  also covers almost all the campground responsibilities</li>
+        <li class="project-paragraph project-paragraph-list-element">They can be established resorts that have 300 sites including lodging, glamping sites, RV sites, where there may be a single dedicated CSR manning the Front Desk part of the application.</li>
+        <li class="project-paragraph project-paragraph-list-element">They may be anywhere in age from 16 to 60</li>
+      </ul>
+    </p>
+  </div>
+
+<div class="project-2-small-images  module">
+  <img class="project-double-image" src="images/CSR_1.png" alt="Customer Service Representative">
+  <img class="project-double-image" src="images/CSR_2.png" alt="Customer Service Representative">
+</div>
+
+<div class="project-information-blurb  module">
+  <h3 class="small-project-header">How we will solve this ☟</<h3>
+
+  <h2 class="large-project-header">Scoping an MVP for initial development and testing</h2>
+
+  <p class="project-paragraph">
+    The designers spent some time working out what we wanted the NRW to be. <a class="project-paragraph-link" target="_blank" href="https://invis.io/2HW6OPQ4CG5">You can see some medium fidelity versions of those screens here.</a>
+  </p>
+
+  <p class="project-paragraph">
+In an ideal world we could have built out the feature redesign with all sorts of these bells and whistles. Because this was an extensive redesign for both the front and backend of an established feature,  we sat down with the dev lead and decided we needed to opt for (improved) parity and UX, and build on nice-to-haves at a later date as feedback came in. We worked through our MVP on a collaborative Trello board.
+  </p>
+
+
+  <p class="project-paragraph-small-header">
+    Some of the things we cut while discussing what would be needed for an MVP included:
+    <ul class="project-paragraph-list">
+      <li class="project-paragraph project-paragraph-list-element">Improved search UI's - sleeker inputs, age group drop-downs, date range pickers</li>
+      <li class="project-paragraph project-paragraph-list-element">Improved map functionality - zooming and panning</li>
+      <li class="project-paragraph project-paragraph-list-element">Descriptions and photos on modals (these were added back in due to them being a low effort lift)</li>
+      <li class="project-paragraph project-paragraph-list-element">Advanced editing in cart, including dates, guests, and site number.</li>
+      <li class="project-paragraph project-paragraph-list-element">Adding new guests up front</li>
+      <li class="project-paragraph project-paragraph-list-element">Improving our check out workflow</li>
+      <li class="project-paragraph project-paragraph-list-element">Editing existing reservations</li>
+      <li class="project-paragraph project-paragraph-list-element">Drag and Drop on grid</li>
+      <li class="project-paragraph project-paragraph-list-element">Fleshing out the static reservation views</li>
+    </ul>
+  </p>
+
+  <p class="project-paragraph">
+    We focused on mostly keeping feature parity, while greatly improving the UX of the experience.
+    <a class="project-paragraph-link" target="_blank" href="https://invis.io/UFWOY3THE25 ">View our MVP clickthrough prototype here.</a>
+  </p>
+
+</div>
+
+<img class="project-single-image  module" src="images/MVP_Trello.png" alt="MVP Trello List">
+
+<div class="project-information-blurb module">
+  <h3 class="small-project-header">Feature Improvements ☟</<h3>
+
+  <h2 class="large-project-header">We focused on improving the UX and UI in a few ways.</h2>
+
+  <ul class="project-paragraph-list">
+    <li class="project-paragraph project-paragraph-list-element">Flexibility - We wanted this feature to be less "one way traffic" and allow them to travel around the screens as needed with no repercussions. Users can navigate around without destroying the cart as well as leave the feature, and now have use of a functional back button.</li>
+    <li class="project-paragraph project-paragraph-list-element">Keeping useful information consistent across views - we created a consistent modal UI that users would experience on all 3 views to provide information.</li>
+    <li class="project-paragraph project-paragraph-list-element">Improving searching and filtering - instead of requiring a new backend search every time a user changed some filter options such as site type or amenities, we took cues from the consumer application to perform an initial search based on availability for the guest count and dates and allowed users to use a front end filtering experience to speed up their searching</li>
+    <li class="project-paragraph project-paragraph-list-element">Updating the feature's UI - bringing the outdated visuals up to date with the direction the newer patterns we were implementing in newer developed features that were cleaner and more considerate of WCAG standards.</li>
+  </ul>
+
+</div>
+
+<div class="project-blurb-divider module"></div>
+
+<div class="project-information-blurb module">
+  <h3 class="small-project-header">Prototyping ☟</<h3>
+
+  <h2 class="large-project-header">After documenting all of the critical workflows, we moved into a prototyping phase so we could refine the UX of our MVP.</h2>
+
+  <p class="project-paragraph">We used the time where developers were cleaning up the backend to test the designs internally, having users run through workflows and finding some kinks in the designs. </p>
+  <p class="project-paragraph">The biggest issue this phase brought to the surface was the lack of consideration for RV sites and profiles. Searching for RV Sites that allow for customers to bring their own equipment is a fair bit more complicated than reserving a tent site or a cabin, due to the additional considerations of site length, slide-outs allowed, and equipment type allowed. Guests that have also been to the park before may have saved RV profiles to use. We had to spend a good chunk of time re-considering out these requirements and re-fleshing out designs, but these issues were then addressed before releasing to customers.</p>
+</div>
+
+<img class="project-single-image module" src="images/NRW_modals.png" alt="New NRW Modals">
+
+<div class="project-information-blurb module">
+  <h3 class="small-project-header">MVP Development and Pilot Program ☟</<h3>
+
+  <h2 class="large-project-header">Releasing our MVP to a small group of parks.</h2>
+
+  <p class="project-paragraph">For our MVP, we set out to test the feature in a few parks in the camping slow season (September to April) to make sure it solved the user problems and improved general attitude about this feature before releasing it to our entire 1000 park customer base. </p>
+    <p class="project-paragraph">We onboarded them, answered any initial questions, and met up with them on a weekly basis to interview them, watch them work through the feature, gauge their impression, and receive feedback on what they liked/didn't like and what would bring them the most positive impact for future iterations.</p>
+  <p class="project-paragraph">We looked for parks that had slightly different business models in the camping industry to test a variety of customer profiles.</p>
+
+  <ul class="project-paragraph-list">
+    <li class="project-paragraph project-paragraph-list-element">Smaller mom and pop campgrounds that had a variety of sites including tent sites and smaller rustic cabins sites</li>
+    <li class="project-paragraph project-paragraph-list-element">Some bigger Yogi franchise parks that served more as family resorts than getaway camping, with water rides and other attractions</li>
+    <li class="project-paragraph project-paragraph-list-element">RV Parks that cater exclusively to customers in RVs who may be booking longer/semi permanent stays (6+ months)</li>
+  </ul>
+
+  <p class="project-paragraph-small-header">Results</p>
+  <ul class="project-paragraph-list">
+    <li class="project-paragraph project-paragraph-list-element">The majority of the parks we onboarded for this phase had very positive sentiments about the enhancements. They expressed the workflow was more streamlined, flexible, and easier to use.</li>
+    <li class="project-paragraph project-paragraph-list-element">The biggest complaint was that they were still not able to edit the items that were in their cart (extend dates, add/remove guests, etc). This informed the team of the next set of features to prioritize and set up the backlog to make this work happen sooner rather than later.</li>
+    <li class="project-paragraph project-paragraph-list-element">We included site and add-on photos in the detail modals. This was helpful to show/describe the sites to customers, but many parks expressed concern that their internet was too slow to load the photo sets.</li>
+    <li class="project-paragraph project-paragraph-list-element">The checkout screens which were not included in the MVP work were still a major issue for customers, and are more jarring now when nestled up to the improved reservation workflow.</li>
+    <li class="project-paragraph project-paragraph-list-element">Loading indicators would be nice to have when a button clicks takes a minute to load</li>
+    <li class="project-paragraph project-paragraph-list-element">The grid screen has a cut-off that means when you scroll down to view the filters, the grid is out of view.</li>
+  </ul>
+
+  <p class="project-paragraph-small-header">A few UX functionality problems/concerns bubbled up</p>
+  <ul class="project-paragraph-list">
+    <li class="project-paragraph project-paragraph-list-element">Most parks have primarily RV sites, so not hiding the RV filters behind a filter would be a better UX for them.</li>
+    <li class="project-paragraph project-paragraph-list-element">The "Proceed to Checkout" button was living exclusively in the shopping cart, which was too hidden for a few users we interviewed to find easily.</li>
+    <li class="project-paragraph project-paragraph-list-element">There were a lot of critical bugs due to unknown dependencies on other features in the application. This meant a handful of parks had to be taken off early.</li>
+  </ul>
+
+</div>
+
+<div class="project-blurb-divider module"></div>
+
+<div class="project-information-blurb module">
+  <h3 class="small-project-header">Outcomes as of December 2020 ☟</<h3>
+
+  <h2 class="large-project-header">Additional Learnings</h2>
+
+  <p class="project-paragraph">Big, dense platform applications have bits of functionality and dependencies that are not known to everyone on the team, meaning that things were sometimes missed or overlooked which caused issues pre and post launch. How we learned to address this issue: Have more cross-team meetings and knowledge sharing upfront with more senior/longterm members of the team to document hidden required functionality and dependencies.
+  </p>
+
+  <p class="project-paragraph-small-header">Next Steps</p>
+
+  <p class="project-paragraph">Make some quick hit UX changes based on the feedback we got from the users in the pilot program and redeploy. </p>
+
+  <p class="project-paragraph"> We have queued up the "Edit Items in Cart" and checkout screens work for the next few quarters to create a complete workflow for this feature. </p>
+
+  <p class="project-paragraph"> Our goal is to onboard an additional 25 parks in January and the rest of our 800+ parks by the end of Q1 using Pendo. </p>
+
+  <p class="project-paragraph"> <a class="project-paragraph-link" target="_blank" href="https://www.loom.com/share/cb0a365e0b9848fb9cfa442de64393df">You can see a video of the new workflow here.</a></p>
+</div>
+
+
+</div>
+
+
+<footer class="project-footer module">
+  <div class="before-and-after">
+    <a class="previous-project" href="Junk_Drawer.html">
+      <p>Previous Project ←</p>
+      <p class="footer-project-name">Junk Drawer</p>
+    </a>
+
+
+    <a class="next-project" href="Second_Hand_Series.html">
+      <p>➞ Next Project </p>
+      <p class="footer-project-name">Second Chance Series</p>
+    </a>
+  </div>
+</footer>
+<script src="js/slide-in.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,71 @@
+html {
+  font-family: 'Karla', sans-serif;
+  font-weight: 200;
+}
+
+.home-page {
+  background: radial-gradient(135.06% 78.31% at 20.45% 82.52%, #FFE3DD 21.41%, #FED8D6 25.92%, #FFFFFF 73.69%);
+  height: 100%;
+  color: #013A4C;
+}
+
+.home-page {
+  color: #013A4C;
+}
+
+a {
+  text-decoration: none;
+  cursor: url("whitecircle.svg"), auto;
+}
+
+  .home-page a{
+    color: #013A4C;
+  }
+
+  .about-page a{
+    color: #FFF4F3;
+  }
+
+.about-page {
+  background-color: #04232D;
+  color: #FFF4F3;
+
+}
+
+.home-page, .about-page {
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  text-align: center;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  max-width: 900px;
+  padding: 40px;
+}
+
+.link a {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+h3, h4 {
+  font-weight: 200;
+}
+
+.resume h3 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.resume-list {
+  font-size: 1.4rem;
+  font-style: italic;
+}
