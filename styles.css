@@ -52,7 +52,7 @@ body {
   font-family: 'Karla';
   margin-top: 64px;
   margin-bottom: 64px;
-  font-size: 4rem;
+  font-size: 3.2rem;
   max-width: 960px;
 }
 
@@ -197,12 +197,12 @@ body {
 @media only screen and (max-width: 740px) {
 
   .home-alaina-blurb {
-    font-size: 2.2rem;
+    font-size: 2rem;
     }
 
     .project-list-item-name {
       font-size: 1.6rem;
-      text-decoration: underline;
+      /*text-decoration: underline;*/
     }
 
     .project-list-item-content {
@@ -213,6 +213,7 @@ body {
     .project-list-item-project-type-list {
       padding-top: 20px;
       font-size: .8rem;
+      visibility: hidden;
     }
 
     .home-page-background {
@@ -311,7 +312,7 @@ body {
   font-family: 'Karla';
   margin-top: 64px;
   margin-bottom: 34px;
-  font-size: 4rem;
+  font-size: 3.2rem;
   max-width: 920px;
 }
 
