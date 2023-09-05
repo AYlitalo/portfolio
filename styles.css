@@ -121,6 +121,10 @@ body {
   color: #8F0000;
 }
 
+.coming-soon {
+  font-weight: bold;
+  color: #C73A31;
+}
   /*
   a {
   color: #8F0000;
@@ -192,6 +196,10 @@ body {
   border-bottom: #8F0000 solid 2px;
   padding-bottom: 10px;
   color: #8F0000;
+}
+
+.zigzag {
+  width: 100%;
 }
 
 @media only screen and (max-width: 740px) {
@@ -268,6 +276,14 @@ body {
   margin-top: 40px;
   margin-bottom: 80px;
   font-size: 1.2em;
+}
+
+.project-page-tile-wedding {
+  background-color: red;
+  background-image: linear-gradient(0deg, #2F0312, #093336);
+  padding: 100px;
+  padding-bottom: 50px;
+  border: 18px white solid;
 }
 
 
