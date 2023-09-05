@@ -40,7 +40,7 @@
     }
 
   .project-page-tile-junk_drawer {
-      padding: 40px;
+      padding: 24px;
     }
 
     .project-description {
@@ -82,7 +82,8 @@
     }
 
     .project-footer {
-      padding: 30px 40px;
+      padding: 24px 24px;
+      border: none;
       }
 
     .footer-project-name {

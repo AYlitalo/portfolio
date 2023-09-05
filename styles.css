@@ -607,8 +607,8 @@ font-weight: 200;
     font-size: 2.2rem;
     }
 
-    .project-page-tile-1, .project-page-tile-2, .project-page-tile-3, .project-page-tile-4, .project-page-tile-junk_drawer {
-      padding: 40px;
+    .project-page-tile-1, .project-page-tile-2, .project-page-tile-3, .project-page-tile-4, .project-page-tile-junk_drawer, .project-page-tile-wedding {
+      padding: 24px;
       border: none;
     }
 
@@ -621,7 +621,7 @@ font-weight: 200;
     }
 
     .project-case-study {
-      padding: 20px 40px;
+      padding: 20px 24px;
     }
 
     .large-project-header {
@@ -651,7 +651,8 @@ font-weight: 200;
     }
 
     .project-footer {
-      padding: 30px 40px;
+      padding: 24px 24px;
+      border: none;
       }
 
     .footer-project-name {
